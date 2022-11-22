@@ -43,6 +43,7 @@ struct ContentView {
         scene.rootNode.addChildNode(faceNode)
 
         let camera = SCNCamera()
+        camera.fieldOfView = 20.0
         cameraNode.camera = camera
         cameraNode.position = .init(0, 0, 1.1)
         scene.rootNode.addChildNode(cameraNode)
