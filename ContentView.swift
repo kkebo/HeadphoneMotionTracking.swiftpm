@@ -35,7 +35,9 @@ struct ContentView {
     private func initializeScene() {
         scene.background.contents = UIColor.black
 
-        let geometry = ARSCNFaceGeometry(device: MTLCreateSystemDefaultDevice()!)!
+        guard let device = MTLCreateSystemDefaultDevice(), let geometry = ARSCNFaceGeometry(device: device) else {
+            preconditionFailure()
+        }
         let material = SCNMaterial()
         material.fillMode = .lines
         geometry.firstMaterial = material
