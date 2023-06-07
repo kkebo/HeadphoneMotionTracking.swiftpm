@@ -1,7 +1,7 @@
 # Headphone Motion Tracking
 
-[![Swift](https://img.shields.io/badge/Swift-5.7-orange.svg)](https://www.swift.org)
-[![Swift Playgrounds](https://img.shields.io/badge/Swift%20Playgrounds-4.2-orange.svg)](https://itunes.apple.com/jp/app/swift-playgrounds/id908519492)
+[![Swift](https://img.shields.io/badge/Swift-5.8-orange.svg)](https://www.swift.org)
+[![Swift Playgrounds](https://img.shields.io/badge/Swift%20Playgrounds-4.3-orange.svg)](https://itunes.apple.com/jp/app/swift-playgrounds/id908519492)
 ![Platform](https://img.shields.io/badge/platform-ipados%20%7C%20ios-lightgrey.svg)
 [![License](https://img.shields.io/github/license/kkk669/HeadphoneMotionTracking.swiftpm.svg)](LICENSE.txt)
 
@@ -11,10 +11,10 @@ This app is a sample app that tracks your head motion with your AirPods.
 
 - iPadOS 16.1 or later
 - iOS 16.1 or later
-  
+
 ## Build requirements
 
-- Swift Playgrounds 4.2 or later (iPadOS 16.1 or later)
+- Swift Playgrounds 4.3 or later (iPadOS 16.1 or later)
 
 ## Get Started
 
