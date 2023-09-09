@@ -8,7 +8,7 @@ import AppleProductTypes
 import PackageDescription
 
 let package = Package(
-    name: "Headphone Motion Tracking",
+    name: "HeadphoneMotionTracking.swiftpm",
     platforms: [
         .iOS("16.1")
     ],
